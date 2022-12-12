@@ -51,6 +51,6 @@ RUN useradd coder \
 
 USER coder
 
-# install Homebrew, must be as a non-root user
-RUN /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-ENV PATH /home/linuxbrew/.linuxbrew/bin:${PATH}
+# # install Homebrew, must be as a non-root user
+# RUN /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# ENV PATH /home/linuxbrew/.linuxbrew/bin:${PATH}
