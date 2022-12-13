@@ -1,4 +1,4 @@
-FROM cnathanrignall/codercom:base-centos
+FROM nathanrignall/codercom:base-centos
 
 # Run everything as root
 USER root
