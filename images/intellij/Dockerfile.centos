@@ -1,4 +1,4 @@
-FROM codercom/enterprise-java:centos
+FROM nathanrignall/codercom:java-centos
 
 # Run everything as root
 USER root

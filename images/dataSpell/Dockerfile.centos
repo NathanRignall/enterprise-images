@@ -1,4 +1,4 @@
-FROM codercom/enterprise-multieditor:centos
+FROM nathanrignall/codercom:multieditor-centos
 
 # Run everything as root
 USER root
