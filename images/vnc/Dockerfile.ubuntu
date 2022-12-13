@@ -29,6 +29,7 @@ RUN apt-get update && apt-get install -y \
   libxtst6 \
   libxv1 \
   libglu1-mesa \
+  libegl1-mesa \
   libc6-dev \
   libglu1 \
   libsm6 \
